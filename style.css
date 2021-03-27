@@ -25,7 +25,6 @@ a:visited {
   width: 100px;
   margin: 0 auto;
   padding-left: 10px;
-  
 }
 
 .containerMenu {
@@ -83,9 +82,8 @@ a:visited {
   align-items: center;
 }
 
-
 .boxText p {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 3.5em;
   text-align: center;
   margin: 0 10px;
@@ -125,7 +123,7 @@ a:visited {
 }
 
 .boxDividers h2 {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   letter-spacing: 2px;
   font-size: 2em;
   color: #fff;
@@ -133,7 +131,7 @@ a:visited {
 
 .boxDividers img {
   width: 45px;
-  margin: 0px 30px ;
+  margin: 0px 30px;
 }
 
 /*CARDS*/
@@ -160,7 +158,6 @@ a:visited {
   margin: 0 auto;
 }
 
-
 .ajuda {
   display: flex;
   justify-content: space-around;
@@ -168,7 +165,6 @@ a:visited {
   background-color: #f0f0f0;
   border-radius: 10px;
 }
-
 
 .card {
   background-color: #fff;
@@ -178,7 +174,6 @@ a:visited {
   border-radius: 15px;
   margin-top: 40px;
 }
-
 
 .card-img {
   height: 190px;
@@ -239,7 +234,6 @@ a:visited {
   margin: 0 auto;
 }
 
-
 .img1 {
   background: url("/img/cat1.png");
 }
@@ -276,19 +270,6 @@ a:visited {
   background: url("img/cat4.png");
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*RESPONSIVE*/
 
 @media (max-width: 700px) {
@@ -323,7 +304,7 @@ a:visited {
 
   /*HOME*/
 
-  .containerImgText{
+  .containerImgText {
     flex-wrap: wrap;
     flex-direction: column;
   }
@@ -338,9 +319,4 @@ a:visited {
     text-align: center;
     margin-top: 20px;
   }
-
-
-  
-
-  
 }
