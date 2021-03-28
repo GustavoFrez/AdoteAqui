@@ -287,6 +287,11 @@ footer {
   align-items: center;
 }
 
+footer img {
+  width: 40px;
+  margin-right: 20px;
+}
+
 /*RESPONSIVE*/
 
 @media (max-width: 887px) {
